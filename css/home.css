@@ -1,0 +1,102 @@
+
+.mainContent {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.mainContent h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 36px;
+    color: #333;
+}
+
+.mainContent p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.ctaButtons {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.primaryButton {
+    font-family: 'Bree Serif', serif;
+    background-color: #73a794; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.secondaryButton {
+    font-family: 'Bree Serif', serif;
+    background-color: #FFFFFF;
+    color: #69ad94;
+    padding: 10px 20px;
+    border: 2px solid #68b398;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Services Section */
+.services {
+    background-color: #E1EFF7; 
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 28px;
+    color: #333;
+}
+
+.serviceCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serviceCard {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.serviceCard:hover {
+    transform: scale(1.1); 
+}
+.serviceCard h3 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.serviceCard p {
+    font-size: 16px;
+    color: #666;
+}
+
+.cardImage {
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+.cardImage img {
+    width: 100%;  
+    height: auto; 
+    border-radius: 5px; 
+}
+

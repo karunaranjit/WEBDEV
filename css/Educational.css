@@ -1,0 +1,56 @@
+
+.anxiety-disorders {
+    background-color: #f4f7f9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainHeading {
+    font-family: 'Bree Serif', serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.disorderBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 100px; 
+}
+
+
+.disorderContent {
+    flex: 1; 
+}
+
+.disorderTitle {
+    font-family: 'Gowun Batang', serif;
+    font-size: 28px;
+    color: #333;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.disorderImage {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}

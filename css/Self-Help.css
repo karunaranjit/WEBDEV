@@ -1,0 +1,94 @@
+.main-content {
+    padding: 40px;
+    background-color: #f9f9f9; 
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 36px;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Gowun Batang', serif;
+    font-size: 28px;
+    color: #444; 
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.relaxation-techniques, .mindfulness-exercises, .mood-tracking {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.techniques-grid, .exercises-grid, .mood-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.technique-card, .exercise-card, .mood-box {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.technique-card h3, .exercise-card h3, .mood-box h3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.technique-card p, .exercise-card p, .mood-box p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.technique-card button, .exercise-card button, .mood-box button {
+    background-color: #88c999;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.technique-card button:hover, .exercise-card button:hover, .mood-box button:hover {
+    background-color: #76affb;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .techniques-grid, .exercises-grid, .mood-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .technique-card, .exercise-card, .mood-box {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+

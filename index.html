@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>User Login</title>
+<link href="./css/Style.css" rel="stylesheet" type="text/css">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+</style>
+
+</head>
+<body>
+ 
+<div class="wrapper" id="wrapper">
+    <div class="form-box sign-up-box">
+        <form onsubmit="validatePasswords(event)">
+            <h1>Create Your Account</h1>
+            <input type="text" placeholder="Full Name" name="nameInput" id="nameInput" required />
+            <input type="email" placeholder="Email Address" required name="emailInput" id="emailInput" />
+            <input type="password" placeholder="Create Password" id="passwordInput" name="passwordInput" required />
+            <input type="password" placeholder="Confirm Password" id="confirmPasswordInput" name="confirmPasswordInput" required />
+            <input type="text" placeholder="Phone Number" name="phoneInput" id="phoneInput" required />        
+            <input type="submit" value="Register" id="signUpButton" name="signUpButton">
+        </form>
+    </div>
+
+    <div class="form-box sign-in-box">
+        <form onsubmit="handleLogin(event)">
+            <h1>Log In</h1>
+            <input type="email" id="loginEmail" name="loginEmail" placeholder="Email Address" required />
+            <input type="password" id="loginPassword" name="loginPassword" placeholder="Password" required />
+            <a href="#">Forgot your password?</a>
+            <input type="submit" value="Log In" name="loginSubmit">
+        </form>
+    </div>
+
+    <div class="overlay-wrapper">
+        <div class="overlay-content">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>Login with your credentials to stay connected</p>
+                <input type="submit" class="ghost-btn" id="goToSignIn" value="Log In">
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello!</h1>
+                <p>Sign up with your personal details to join us</p>
+                <input type="submit" class="ghost-btn" id="goToSignUp" value="Sign Up"> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/Script.js"></script>
+</body>
+</html>
